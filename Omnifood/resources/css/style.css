@@ -97,7 +97,7 @@ h3 {
 /*============BUTTON=====================*/
 .btn:link,
 .btn:visited,
-input[type=submit] {
+input[type="submit"] {
   display: inline;
   padding: 10px 30px;
   font-weight: 300;
@@ -109,7 +109,7 @@ input[type=submit] {
 
 .btn-full:link,
 .btn-full:visited,
-input[type=submit]{
+input[type="submit"] {
   background-color: #e67e22;
   border: 1px solid #e67e22;
   color: #fff;
@@ -127,9 +127,9 @@ input[type=submit]{
 }
 
 .btn-full:hover,
-.btn-full:active, 
-input[type=submit]:hover,
-input[type=submit]:active{
+.btn-full:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
   background-color: #cf6d17;
 }
 .btn-ghost:hover,
@@ -365,12 +365,12 @@ cite img {
   padding: 15px;
   border-bottom: 1px solid #e8e8e8;
 }
-.price-box div:first-child{
- background-color:#fcfcfc;
- border-top-left-radius: 5px;
- border-top-right-radius: 5px;
+.price-box div:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-.price-box div:last-child{
+.price-box div:last-child {
   text-align: center;
   border: 0;
 }
@@ -380,39 +380,105 @@ cite img {
   font-weight: 100;
   color: #e67e22;
 }
-.plan-price span{
-  font-size: 30%;font-weight: 300;
-
+.plan-price span {
+  font-size: 30%;
+  font-weight: 300;
 }
 .plan-price-meal {
   font-size: 80%;
 }
-.price-box ul{
+.price-box ul {
   list-style: none;
 }
-.price-box ul li{
+.price-box ul li {
   padding: 5px 0;
 }
 
 /*=============FORM=================*/
-.contact-form{
+.contact-form {
   width: 60%;
   margin: 0 auto;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 select,
-textarea{
+textarea {
   width: 100%;
   padding: 7px;
   border-radius: 3px;
   border: 1px solid #ccc;
 }
 
-input[type=checkbox]{
+input[type="checkbox"] {
   margin: 10px 3px 10px 0;
 }
-*:focus{
+*:focus {
   outline: none;
+}
+
+/***********FOOTER**************/
+footer {
+  background-color: #332;
+  padding: 50px;
+}
+footer p{
+  color: #888;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 30px;
+}
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links li:last-child,
+.footer-nav li:last-child {
+  margin: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:active,
+.footer-nav li a:visited{
+  color: #ddd;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram{
+  transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{
+  color: #1877f2;
+}
+.ion-social-twitter:hover{
+  color: #1da1f2;
+}
+.ion-social-googleplus:hover{
+  color: #ff0000;
+}
+.ion-social-instagram:hover{
+  color: #c32aa3;
 }

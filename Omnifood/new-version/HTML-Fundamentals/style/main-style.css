@@ -5,10 +5,16 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h1 {
-  color: rgb(69, 2, 194);
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
@@ -41,18 +47,65 @@ footer p {
 /* article header p{
   font-style: italic;
 } */
-#copyright{
-  font-size:16px;
+#copyright {
+  font-size: 16px;
 }
-#author{
+#author {
   font-style: italic;
-  font-size:18px;
+  font-size: 18px;
 }
-.related-author{
-  font-size:18px;
-  font-weight:bold;
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.relate-list{
-  list-style:none;
+.relate-list {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+body {
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* li:nth-child(2) {
+  color: red;
+} */
+/* li:nth-child(odd) {
+  color: red;
+} */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
 }

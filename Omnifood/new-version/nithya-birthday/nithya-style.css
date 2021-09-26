@@ -5,17 +5,21 @@
 }
 
 .nithya-header {
-  background-image: url(nithya-images/Cvr\ Nithya\ 20170210_083735.jpg);
+  /* background-image: url(nithya-images/Cvr\ Nithya\ 20170210_083735.jpg); */
+  margin-top: 1px;
   height: 400px;
   width: 100%;
-  border-radius: 0.25 rem;
+  border: solid 2px rgb(11, 160, 230);
+  border-radius: 50px 20px;
 }
 
 .nithya-header h1 {
   text-align: center;
+  font-family: "Apple Chancery", "cursive";
 }
 
 .nithya-birthday-header {
   text-align: center;
   text-decoration: rgb(221, 213, 203);
+  color: white;
 }

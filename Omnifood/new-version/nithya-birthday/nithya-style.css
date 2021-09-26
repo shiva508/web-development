@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(26, 26, 92);
+}
+
+.nithya-header {
+  background-image: url(nithya-images/Cvr\ Nithya\ 20170210_083735.jpg);
+  height: 400px;
+  width: 100%;
+  border-radius: 0.25 rem;
+}
+
+.nithya-header h1 {
+  text-align: center;
+}
+
+.nithya-birthday-header {
+  text-align: center;
+  text-decoration: rgb(221, 213, 203);
+}

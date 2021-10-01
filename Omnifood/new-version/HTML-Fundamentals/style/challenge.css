@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   margin: 50px auto;
   border: solid 5px black;
   line-height: 1.4;
+  position: relative;
 }
 .title-header {
   text-align: center;
@@ -20,7 +22,9 @@ body {
   background-color: #f7f7f7;
   padding: 15px;
 }
-
+article {
+  /* position: relative; */
+}
 .title-product {
   text-transform: uppercase;
   font-weight: bold;
@@ -30,8 +34,11 @@ body {
 .price-title {
   font-weight: bold;
   font-size: 35px;
+  float: left;
 }
-
+.hero-content-one {
+  clear: both;
+}
 button {
   color: white;
   background-color: black;
@@ -55,6 +62,7 @@ button:hover {
   font-weight: bold;
   color: rgb(61, 57, 57);
   margin-bottom: 20px;
+  float: right;
 }
 .more-info:link {
   color: black;
@@ -69,4 +77,76 @@ ul {
 }
 .details-list li {
   margin-bottom: 10px;
+}
+
+/* h2::before {
+  content: "SALE";
+  background-color: red;
+  display: inline-block;
+  top: -10px;
+  padding: 6px 23px;
+  position: absolute;
+  left: -39px;
+  top: -14px;
+  font-size: 20px;
+} */
+.rectangle-box {
+  background-color: red;
+  height: 39px;
+  width: 35px;
+  position: absolute;
+}
+
+rectangle-box-blue {
+  background-color: rgb(0, 17, 255);
+  height: 39px;
+  width: 35px;
+  position: absolute;
+}
+.sale {
+  text-transform: uppercase;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 15px;
+  display: inline-block;
+  font-size: 12px;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+  letter-spacing: 2px;
+}
+.colors {
+  margin-top: 10px;
+}
+.color {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+.color-green {
+  background-color: rgb(0, 255, 149);
+}
+.color-orenge {
+  background-color: orange;
+}
+.color-yellowgreen {
+  background-color: yellowgreen;
+}
+.color-navy {
+  background-color: navy;
+}
+.clear-fix {
+  content: "";
+  display: block;
+  clear: both;
 }

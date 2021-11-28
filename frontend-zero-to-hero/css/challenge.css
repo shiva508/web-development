@@ -88,7 +88,7 @@ li:last-child{
     margin-bottom: 0px;
 }
 .details-text{
-/* margin-bottom: 20px; */
+ margin-bottom: 10px; 
 clear: both;
 }
 /* .container::before{

@@ -261,3 +261,203 @@
   text-align: center;
   background-color: #f1f1f1;
 }
+.flex-container-align-content-space-between {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color: crimson;
+}
+.flex-container-align-content-space-between > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-align-content-space-around {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  background-color: deeppink;
+}
+.flex-container-align-content-space-around > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-align-content-stretch {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: stretch;
+  background-color: forestgreen;
+}
+.flex-container-align-content-stretch > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-align-content-center {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: mediumorchid;
+}
+.flex-container-align-content-center > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-align-content-flex-start {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: royalblue;
+}
+.flex-container-align-content-flex-start > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-align-content-flex-end {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  background-color: silver;
+}
+.flex-container-align-content-flex-end > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-align-content-justify-content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background-color: rgb(44, 132, 167);
+}
+.flex-container-align-content-justify-content-center > div {
+  background-color: #f1f1f1;
+  color: white;
+  width: 100px;
+  height: 100px;
+}
+.flex-container-item {
+  display: flex;
+  background-color: slategray;
+}
+.flex-container-item > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-item-order {
+  display: flex;
+  align-items: stretch;
+  background-color: sienna;
+}
+.flex-container-item-order > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-flex-grow {
+  display: flex;
+  align-items: stretch;
+  background-color: violet;
+}
+.flex-container-flex-grow > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-flex-shrink {
+  display: flex;
+  align-items: stretch;
+  background-color: rgb(221, 224, 50);
+}
+.flex-container-flex-shrink > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-flex-basis {
+  display: flex;
+  align-items: stretch;
+  background-color: rgb(42, 82, 109);
+}
+.flex-container-flex-basis > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-flex-grow-flex-shrink-flex-basis {
+  display: flex;
+  align-items: stretch;
+  background-color: rgb(30, 189, 99);
+}
+.flex-container-flex-grow-flex-shrink-flex-basis > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-align-self {
+  display: flex;
+  height: 200px;
+  background-color: snow;
+}
+.flex-container-align-self > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}

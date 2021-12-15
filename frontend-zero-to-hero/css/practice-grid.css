@@ -55,3 +55,89 @@
   grid-column-start: 1;
   grid-column-end: 3;
 }
+.grid-container-grid-row-start-end {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: yellow;
+  padding: 10px;
+}
+.grid-container-grid-row-start-end > div {
+  background-color: thistle;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-item-row-start-end1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.grid-container-grid-template-columns {
+  display: grid;
+  grid-template-columns: 80px 200px auto 30px;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: sienna;
+}
+.grid-container-grid-template-columns > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container-grid-template-rows {
+  display: grid;
+  grid-template-rows: 80px 200px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: slategrey;
+}
+.grid-container-grid-template-rows > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container-justify-content {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-gap: 10px;
+  padding: 10px;
+  justify-content: space-evenly;
+  background-color: tomato;
+}
+.grid-container-justify-content > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container-justify-content-space-around {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: mediumturquoise;
+  justify-content: space-around;
+}
+.grid-container-justify-content-space-around > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-justify-justify-content-space-between {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: olive;
+  justify-content: space-between;
+}
+.grid-justify-justify-content-space-between > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

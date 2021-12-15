@@ -141,3 +141,136 @@
   padding: 20px 0;
   font-size: 30px;
 }
+.grid-justify-content-center {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  justify-content: center;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: crimson;
+}
+.grid-justify-content-center > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-justify-content-start {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  justify-content: start;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: darkslategray;
+}
+.grid-justify-content-start > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-justify-content-end {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  justify-content: end;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: teal;
+}
+.grid-justify-content-end > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-align-content-center {
+  display: grid;
+  height: 400px;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: yellow;
+}
+.grid-align-content-center > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-align-content-space-evenly {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 400px;
+  align-content: space-evenly;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: skyblue;
+}
+.grid-align-content-space-evenly > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-align-content-space-around {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 400px;
+  align-content: space-around;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: sienna;
+}
+.grid-align-content-space-around > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-align-content-space-between {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 400px;
+  grid-gap: 10px;
+  padding: 10px;
+  align-content: space-between;
+  background-color: pink;
+}
+
+.grid-align-content-space-between > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-align-content-start {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 400px;
+  grid-gap: 10px;
+  padding: 10px;
+  align-content: start;
+  background-color: seagreen;
+}
+.grid-align-content-start > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-align-content-end {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 400px;
+  grid-gap: 10px;
+  padding: 10px;
+  align-content: end;
+  background-color: rgb(139, 130, 46);
+}
+.grid-align-content-end > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

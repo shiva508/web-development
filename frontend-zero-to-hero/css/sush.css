@@ -4,84 +4,91 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Inter", sans-serif;
-}
-.container {
-  display: flex;
-}
-.hero-image-container {
-  text-align: left;
-  font-size: 60px;
-  width: 100%;
-  height: 100%;
-  font-weight: bold;
-  background-color: #1a1919;
-  color: wheat;
-  flex-direction: row;
-}
-.image-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.image-container-dual-image {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.hero-image-container-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 40px;
-}
-.hero-image-container-text-name {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(20, 236, 20);
-  font-size: 120px;
-}
-.hero-image-container-suschi-image-two {
-  display: flex;
-  align-content: flex-start;
-  justify-content: flex-start;
-  border: 4px solid rgb(193, 233, 213);
-  border-radius: 20px;
-  background-color: rgb(143, 245, 194);
-  width: 600px;
-  height: 600px;
-}
-.hero-image-container-suschi-image-two {
-  display: flex;
-  align-content: flex-start;
-  justify-content: flex-start;
-  border: 4px solid rgb(193, 233, 213);
-  border-radius: 20px;
-  background-color: rgb(143, 245, 194);
-  width: 600px;
-  height: 728px;
+  background-color: #000;
+  font-family: "Source Sans Pro";
 }
 
-.hero-image-container-suschi-image-three {
-  display: flex;
-  align-content: flex-start;
-  justify-content: flex-start;
-  border: 4px solid rgb(193, 233, 213);
-  border-radius: 20px;
-  background-color: rgb(143, 245, 194);
-  width: 600px;
-  height: 728px;
+.container {
+  width: 1573px;
+  margin: 0 auto;
 }
-.suchi-image-one {
-  width: 600px;
-}
-.suchi-image-two,
-.suchi-image-three {
-  width: 600px;
-  height: 728px;
-}
-.main-container {
-  display: flex;
+.hero-section {
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  column-gap: 70px;
+  margin-bottom: 80px;
+  box-shadow: 0 20px 30px 0 rgb(225 92 92 / 70%);
+  border-radius: 20px;
+}
+.wish-name {
+  color: #4452fb;
+  text-transform: uppercase;
+}
+img {
+  width: 686px;
+  border-radius: 12px;
+}
+
+h1 {
+  color: #e6e6e7;
+  font-size: 57px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+h2 {
+  color: #e6e6e7;
+  font-size: 24px;
+  font-weight: 700;
+}
+.wishes_text {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.7);
+  padding-left: 24px;
+}
+.sub-hero {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 30px 0 rgb(225 92 92 / 70%);
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+.sub-hero-img-left,
+.sub-hero-img-middle,
+.sub-hero-img-right {
+  width: 300px;
+}
+.love {
+  display: grid;
+  /* box-shadow: 0 20px 30px 0 rgb(225 92 92 / 70%);  */
+  box-shadow: 0 20px 30px 0 #63e6be;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.care {
+  display: grid;
+  box-shadow: 0 20px 30px 0 rgb(225 92 92 / 70%);
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.affection {
+  display: grid;
+  box-shadow: 0 20px 30px 0 #7950f2;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.love-text,
+.affection-text,
+.care-text {
+  text-align: center;
+  color: #868e96;
+  font-family: "Oooh Baby", cursive;
+  font-size: 80px;
+  font-weight: 800;
 }

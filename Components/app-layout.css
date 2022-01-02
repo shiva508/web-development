@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  color: #343140;
+  font-size: 24px;
+  display: grid;
+  height: 100vh;
+  font-weight: bold;
+  text-align: center;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 80px 1fr;
+}
+nav,
+menu,
+section,
+aside,
+main {
+  padding: 24px;
+}
+nav {
+  background-color: #343a40;
+  color: #fff;
+  grid-row: 1/-1;
+}
+menu {
+  background-color: #7048e8;
+  color: #fff;
+  grid-column: 2/-1;
+  display: flex;
+  gap: 12px;
+}
+section {
+  background-color: #e9ecef;
+  overflow: scroll;
+}
+aside {
+  background-color: #e9ecef;
+}
+
+button {
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: #5f3dc4;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+  display: inline-block;
+}
+button:last-child {
+  background-color: #d6336c;
+  margin-left: auto;
+}
+.email {
+  padding: 24px;
+  background-color: #adb5bd;
+  margin: 14px;
+}

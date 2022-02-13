@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mynotebook-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.6rem;
+  padding: 0 4.8rem;
+  background-color: black;
+  color: white;
+  font-family: "Staatliches";
+}
+.mynotebook-header-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+.mynotebook-header-nav-list a {
+  text-decoration: none;
+  color: white;
+}
+.topic-name {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}

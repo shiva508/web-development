@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Staatliches";
+  font-size: 8rem;
+}
+.home-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  row-gap: 0px;
+}
+.header-my {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.header-notebook {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.notebook-links {
+  margin-top: -272px;
+}
+.notebook-links a:link,
+.notebook-links a:visited {
+  text-decoration: none;
+  font-size: 4.2rem;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+}

@@ -28,7 +28,12 @@ SPACING SYSTEM (px)
   padding: 0;
   box-sizing: border-box;
 }
-
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
 html {
   font-size: 62.5%;
 }
@@ -193,18 +198,20 @@ body {
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
   font-size: 2rem;
   font-weight: 600;
   text-decoration: none;
-  color: #fff;
+  /* color: #fff; */
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   /* transition: background-color 0.3s; */
   transition: all 0.3s;
+  cursor: pointer;
+  font-family: inherit;
 }
 .btn--full:link,
 .btn--full:visited {
@@ -577,8 +584,9 @@ strong {
   /* background-image: linear-gradient(90deg, red, #e67e22); */
   /* background-image: linear-gradient(to right, red, #e67e22); */
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-  height: 50rem;
+  /* height: 50rem; */
   overflow: hidden;
+  margin-bottom: 9.6rem;
 }
 .cta-text-box {
   color: #45260a;
@@ -617,10 +625,12 @@ strong {
   margin-bottom: 1.2rem;
 }
 
-.cta-form input {
+.cta-form input,
+.cta-form select {
   width: 100%;
   padding: 1.2rem;
   font-size: 1.8rem;
+  color: inherit;
   font-family: inherit;
   border: none;
   background-color: #fdf2e9;
@@ -634,6 +644,21 @@ strong {
 }
 
 .cta-form button {
+}
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 /* .section-how div div {
   padding: 100px;

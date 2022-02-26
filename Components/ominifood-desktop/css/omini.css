@@ -94,6 +94,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 .list-icon {
   height: 3rem;
@@ -118,7 +119,7 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -732,6 +733,9 @@ strong {
 .contacts-address {
   margin-bottom: 4.2rem;
 }
+
+/* MEDIA QUERIES */
+
 /* .section-how div div {
   padding: 100px;
   font-size: 50px;

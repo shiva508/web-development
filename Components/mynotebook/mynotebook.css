@@ -7,8 +7,20 @@ body {
   background-color: black;
   color: white;
   font-family: "Staatliches";
-  font-size: 8rem;
+  font-size: 6rem;
 }
+/* 
+==========================
+COMMON
+========================== */
+
+.grid {
+  display: grid;
+}
+.grid--row-3 {
+  grid-template-rows: repeat(3, fr);
+}
+/* 
 .home-container {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
@@ -36,4 +48,4 @@ body {
   background-color: white;
   color: black;
   padding: 10px 20px;
-}
+} */

@@ -37,6 +37,7 @@ SPACING SYSTEM (px)
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Rubik", sans-serif;
@@ -749,6 +750,18 @@ strong {
 }
 .contacts-address {
   margin-bottom: 4.2rem;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 8rem;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
 /* MEDIA QUERIES */

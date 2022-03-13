@@ -13,12 +13,20 @@ body {
 ==========================
 COMMON
 ========================== */
-
+.container {
+  width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
 .grid {
   display: grid;
 }
 .grid--row-3 {
   grid-template-rows: repeat(3, fr);
+}
+.home {
+  align-items: center;
+  justify-content: center;
 }
 /* 
 .home-container {

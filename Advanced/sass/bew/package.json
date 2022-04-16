@@ -1,0 +1,17 @@
+{
+  "name": "studentpool",
+  "version": "1.0.0",
+  "description": "advanced css tutorial ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./css/main.scss ./css/main.css -w"
+  },
+  "author": "Shiva",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

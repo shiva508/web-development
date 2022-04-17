@@ -41,3 +41,26 @@
     animation-fill-mode: backwards;
   }
 }
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: $default-font-size;
+    color: $dark-green-color;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $dark-green-color;
+    padding: 3px;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    background-color: $dark-green-color;
+    color: $white-color;
+    box-shadow: 0 1rem 2rem rgba($black-color, 0.15);
+    transform: translateY(-2px);
+  }
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba($black-color, 0.15);
+    transform: translateY(0);
+  }
+}

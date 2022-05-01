@@ -17,6 +17,10 @@
     background-color: $white-color;
     color: $gray-dark-color;
   }
+  &-green {
+    background-color: $dark-green-color;
+    color: $white-color;
+  }
   &::after {
     content: "";
     display: inline-block;
@@ -32,6 +36,10 @@
   &-white::after {
     background-color: $white-color;
   }
+  &-green::after {
+    background-color: $dark-green-color;
+  }
+
   &:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;

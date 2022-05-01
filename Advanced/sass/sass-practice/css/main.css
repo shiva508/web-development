@@ -101,6 +101,12 @@ body {
 .u-marging-bottom-big {
   margin-bottom: 8rem; }
 
+.u-marging-top-big {
+  margin-top: 8rem; }
+
+.u-marging-top-huge {
+  margin-top: 8rem; }
+
 .btn:link {
   text-transform: uppercase;
   text-decoration: none;
@@ -131,6 +137,10 @@ body {
   background-color: #fff;
   color: #777; }
 
+.btn-green {
+  background-color: #28b485;
+  color: #fff; }
+
 .btn::after {
   content: "";
   display: inline-block;
@@ -145,6 +155,9 @@ body {
 
 .btn-white::after {
   background-color: #fff; }
+
+.btn-green::after {
+  background-color: #28b485; }
 
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
@@ -221,9 +234,9 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem; }
+  height: 54rem; }
   .card__side {
-    height: 50rem;
+    height: 54rem;
     transition: all 0.8s ease;
     font-size: 2rem;
     position: absolute;
@@ -231,13 +244,23 @@ body {
     left: 0;
     width: 100%;
     backface-visibility: hidden;
+    border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     overflow: hidden; }
     .card__side--front {
       background-color: #fff; }
-    .card__side--back {
+    .card__side--back-1 {
       transform: rotateY(180deg);
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+    .card__side--back-2 {
+      transform: rotateY(180deg);
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+    .card__side--back-2 {
+      transform: rotateY(180deg);
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+    .card__side--back-3 {
+      transform: rotateY(180deg);
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -245,13 +268,144 @@ body {
   .card__picture {
     background-size: cover;
     background-blend-mode: screen;
-    height: 23rem; }
+    height: 23rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
     .card__picture--2 {
-      background-image: url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/nat-6.jpg); }
     .card__picture--3 {
-      background-image: url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
+  .card__heading {
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top: 12rem;
+    right: 2rem;
+    width: 75%; }
+  .card__heading--span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone; }
+    .card__heading--span--1 {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+    .card__heading--span--2 {
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
+    .card__heading--span--3 {
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+  .card__details {
+    padding: 1rem; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .card__details ul li {
+        text-align: center;
+        font-family: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center; }
+  .card__price-box {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8rem; }
+  .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100; }
+
+.practice {
+  margin: 8rem auto;
+  position: relative;
+  height: 52rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  max-width: 20rem; }
+  .practice__fb {
+    text-align: center;
+    height: 52rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: all 0.8s ease;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+  .practice__frontside {
+    background-color: #fff; }
+  .practice__backside {
+    transform: rotateY(180deg);
+    background-color: #fff; }
+    .practice__backside:hover {
+      transform: rotateY(0); }
+  .practice:hover .practice__frontside {
+    transform: rotateY(-180deg); }
+  .practice:hover .practice__backside {
+    transform: rotateY(0); }
+  .practice__picturefb {
+    height: 23rem;
+    background-size: cover;
+    background-blend-mode: screen;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/nat-1.jpg); }
+  .practice__heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: right;
+    position: absolute;
+    top: 10rem;
+    right: 9rem;
+    color: #fff; }
+    .practice__heading__span {
+      padding: 1rem 1.5rem;
+      --webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
+
+.story {
+  width: 75%;
+  margin: 0 auto;
+  padding: 6rem;
+  padding-left: 9rem;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 1.6rem;
+  transform: skewX(-12deg); }
+  .story > * {
+    transform: skewX(12deg); }
+  .story__shape {
+    height: 15rem;
+    width: 15rem;
+    float: left;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem) skewX(12deg); }
+  .story__img {
+    height: 100%;
+    transform: skewX(12deg); }
+  .story__text {
+    transform: skewX(12deg); }
 
 .header {
   height: 95vh;
@@ -318,5 +472,10 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 15rem 0;
+  margin-top: -10rem; }
+
+.section-stories {
+  background-color: #f7f7f7;
+  padding: 15rem 0;
   margin-top: -10rem; }

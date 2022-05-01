@@ -1,0 +1,71 @@
+.practice {
+  margin: 8rem auto;
+  position: relative;
+  height: 52rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  max-width: 20rem;
+  &__fb {
+    text-align: center;
+    height: 52rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: all 0.8s ease;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba($black-color, 0.15);
+  }
+  &__frontside {
+    background-color: $white-color;
+  }
+  &__backside {
+    transform: rotateY(180deg);
+    background-color: $white-color;
+    &:hover {
+      transform: rotateY(0);
+    }
+  }
+  &:hover &__frontside {
+    transform: rotateY(-180deg);
+  }
+  &:hover &__backside {
+    transform: rotateY(0);
+  }
+
+  //PICTURE
+  &__picturefb {
+    height: 23rem;
+    background-size: cover;
+    background-blend-mode: screen;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-image: linear-gradient(
+        to right bottom,
+        $light-green-color,
+        $dark-green-color
+      ),
+      url(../img/nat-1.jpg);
+  }
+  &__heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: right;
+    position: absolute;
+    top: 10rem;
+    right: 9rem;
+    color: $white-color;
+    &__span {
+      padding: 1rem 1.5rem;
+      --webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($light-green-color, 0.85),
+        rgba($dark-green-color, 0.85)
+      );
+    }
+  }
+}

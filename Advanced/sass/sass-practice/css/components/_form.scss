@@ -1,0 +1,24 @@
+.form {
+  &__group:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  &__label {
+  }
+}
+.form__input {
+  font-family: inherit;
+  font-size: 1.5rem !important;
+  padding: 1.5rem 2rem !important;
+  border-radius: 2px !important;
+  background-color: rgba($white-color, 0.5) !important;
+  border: none;
+  border-bottom: 3px solid transparent !important;
+  width: 100%;
+  display: block;
+  &:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba($black-color, 0.1) !important;
+    border-bottom: 3px solid $dark-green-color !important;
+  }
+}
